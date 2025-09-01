@@ -1231,3 +1231,16 @@ footer::before {
   0% { background-position: -200% 0; }
   100% { background-position: 200% 0; }
 }
+
+/* Highlight khusus untuk menu Coba AR */
+.nav__links a.nav__highlight {
+  font-family: 'KKNHorror', serif;
+  color: #ff0707;
+  font-weight: 500;
+  letter-spacing: 4px;
+}
+
+.nav__links a.nav__highlight:hover {
+  color: #ff6060;
+  text-shadow: 0 0 8px #ff0707;
+}
